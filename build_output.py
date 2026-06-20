@@ -2,7 +2,7 @@ import pandas as pd
 import json
 import re
 
-df = pd.read_csv("dataset/output_final_clean.csv")
+df = pd.read_csv("dataset/output_debug.csv")
 
 rows = []
 
