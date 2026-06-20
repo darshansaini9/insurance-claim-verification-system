@@ -18,7 +18,6 @@ The project demonstrates practical applications of:
 
 This repository is shared for educational and portfolio purposes.
 
-
 ## How to Use the Project
 
 ### Step 1: Clone the Repository
@@ -90,29 +89,38 @@ dataset/output_debug.csv
 
 Execute:
 
+```bash
 python build_output.py
+```
+
 This converts the raw AI responses into a structured insurance review report.
 
 Generated file:
 
+```text
 output.csv
+```
 
 ### Step 8: Review Results
 
 Open the final report:
 
+```bash
 head output.csv
+```
 
 or
 
-
+```bash
 python -c "
 import pandas as pd
 print(pd.read_csv('output.csv').head())
-
+"
+```
 
 ### Example Workflow
 
+```text
 Customer Claim + Images
           │
           ▼
@@ -126,6 +134,7 @@ Customer Claim + Images
           │
           ▼
       output.csv
+```
 
 The final report contains:
 
